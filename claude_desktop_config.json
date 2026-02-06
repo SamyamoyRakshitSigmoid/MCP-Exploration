@@ -1,0 +1,14 @@
+{
+    "mcpServers": {
+        "sales-analytics": {
+            "command": "/Users/samyamoyrakshit/.local/bin/uv",
+            "args": [
+                "--directory",
+                "/Users/samyamoyrakshit/Documents/MCP/MCP-Exploration",
+                "run",
+                "python",
+                "mcp_server.py"
+            ]
+        }
+    }
+}
