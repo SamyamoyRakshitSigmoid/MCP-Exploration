@@ -80,14 +80,16 @@ graph TB
         B --> C[CSV File<br/>sample_sales_data.csv]
     end
     
-    D[❌ Other Employees<br/>Cannot Access] -.x B
-    E[❌ Mobile Devices<br/>Cannot Access] -.x B
+    subgraph "Cannot Access"
+        D[Other Employees]
+        E[Mobile Devices]
+    end
     
-    style A fill:#1565c0,color:#fff
-    style B fill:#2e7d32,color:#fff
-    style C fill:#d84315,color:#fff
-    style D fill:#c62828,color:#fff
-    style E fill:#c62828,color:#fff
+    style A fill:#bbdefb
+    style B fill:#c8e6c9
+    style C fill:#ffccbc
+    style D fill:#ffcdd2
+    style E fill:#ffcdd2
 ```
 
 **Limitations**:
