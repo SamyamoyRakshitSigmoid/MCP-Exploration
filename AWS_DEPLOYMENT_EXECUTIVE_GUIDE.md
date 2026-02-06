@@ -85,11 +85,11 @@ graph TB
         E[Mobile Devices]
     end
     
-    style A fill:#bbdefb
-    style B fill:#c8e6c9
-    style C fill:#ffccbc
-    style D fill:#ffcdd2
-    style E fill:#ffcdd2
+    style A fill:#0d47a1,color:#fff
+    style B fill:#0d47a1,color:#fff
+    style C fill:#2e7d32,color:#fff
+    style D fill:#ad1457,color:#fff
+    style E fill:#5e35b1,color:#fff
 ```
 
 **Limitations**:
