@@ -86,7 +86,7 @@ graph TB
     end
     
     style A fill:#0d47a1,color:#fff
-    style B fill:#0d47a1,color:#fff
+    style B fill:#f9a825,color:#000
     style C fill:#2e7d32,color:#fff
     style D fill:#ad1457,color:#fff
     style E fill:#5e35b1,color:#fff
