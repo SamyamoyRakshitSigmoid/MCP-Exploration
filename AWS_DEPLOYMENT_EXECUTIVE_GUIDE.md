@@ -45,11 +45,11 @@ graph LR
     C --> B
     B --> E[Natural Language<br/>Answer with Charts]
     
-    style A fill:#e1f5ff
-    style B fill:#fff4e1
-    style C fill:#e8f5e9
-    style D fill:#fce4ec
-    style E fill:#f3e5f5
+    style A fill:#1976d2,color:#fff
+    style B fill:#f57c00,color:#fff
+    style C fill:#388e3c,color:#fff
+    style D fill:#c2185b,color:#fff
+    style E fill:#7b1fa2,color:#fff
 ```
 
 **What MCP Does**:
@@ -83,11 +83,11 @@ graph TB
     D[❌ Other Employees<br/>Cannot Access] -.x B
     E[❌ Mobile Devices<br/>Cannot Access] -.x B
     
-    style A fill:#bbdefb
-    style B fill:#c8e6c9
-    style C fill:#ffccbc
-    style D fill:#ffcdd2
-    style E fill:#ffcdd2
+    style A fill:#1565c0,color:#fff
+    style B fill:#2e7d32,color:#fff
+    style C fill:#d84315,color:#fff
+    style D fill:#c62828,color:#fff
+    style E fill:#c62828,color:#fff
 ```
 
 **Limitations**:
@@ -133,16 +133,16 @@ graph TB
     D3 --> E
     E --> F
     
-    style A1 fill:#e3f2fd
-    style A2 fill:#e3f2fd
-    style A3 fill:#e3f2fd
-    style A4 fill:#e3f2fd
-    style C fill:#fff9c4
-    style D1 fill:#c8e6c9
-    style D2 fill:#c8e6c9
-    style D3 fill:#c8e6c9
-    style E fill:#f8bbd0
-    style F fill:#d1c4e9
+    style A1 fill:#0d47a1,color:#fff
+    style A2 fill:#0d47a1,color:#fff
+    style A3 fill:#0d47a1,color:#fff
+    style A4 fill:#0d47a1,color:#fff
+    style C fill:#f9a825,color:#000
+    style D1 fill:#2e7d32,color:#fff
+    style D2 fill:#2e7d32,color:#fff
+    style D3 fill:#2e7d32,color:#fff
+    style E fill:#ad1457,color:#fff
+    style F fill:#5e35b1,color:#fff
 ```
 
 **Benefits**:
@@ -168,12 +168,12 @@ graph LR
     D --> E[Return Result]
     C -.->|No requests| F[💤 Sleeping<br/>No Cost]
     
-    style A fill:#e1f5ff
-    style B fill:#fff9c4
-    style C fill:#c8e6c9
-    style D fill:#ffccbc
-    style E fill:#f3e5f5
-    style F fill:#cfd8dc
+    style A fill:#1976d2,color:#fff
+    style B fill:#f9a825,color:#000
+    style C fill:#2e7d32,color:#fff
+    style D fill:#d84315,color:#fff
+    style E fill:#7b1fa2,color:#fff
+    style F fill:#455a64,color:#fff
 ```
 
 **How It Works**:
@@ -210,11 +210,11 @@ graph TB
     B --> C
     C --> D
     
-    style A fill:#ffccbc
-    style B fill:#c8e6c9
-    style C fill:#bbdefb
-    style D fill:#f8bbd0
-    style E fill:#e1f5ff
+    style A fill:#d84315,color:#fff
+    style B fill:#2e7d32,color:#fff
+    style C fill:#1565c0,color:#fff
+    style D fill:#ad1457,color:#fff
+    style E fill:#1976d2,color:#fff
 ```
 
 **How It Works**:
@@ -264,14 +264,14 @@ graph TB
     B4 -.-> C
     D -.->|Deploy New Version| B1
     
-    style A fill:#fff9c4
-    style B1 fill:#c8e6c9
-    style B2 fill:#c8e6c9
-    style B3 fill:#c8e6c9
-    style B4 fill:#e0e0e0
-    style C fill:#f8bbd0
-    style D fill:#d1c4e9
-    style E fill:#e1f5ff
+    style A fill:#f9a825,color:#000
+    style B1 fill:#2e7d32,color:#fff
+    style B2 fill:#2e7d32,color:#fff
+    style B3 fill:#2e7d32,color:#fff
+    style B4 fill:#616161,color:#fff
+    style C fill:#ad1457,color:#fff
+    style D fill:#5e35b1,color:#fff
+    style E fill:#1976d2,color:#fff
 ```
 
 **How It Works**:
@@ -341,17 +341,17 @@ graph TB
     H --> I
     I -.->|Alert Email| A3
     
-    style A1 fill:#e3f2fd
-    style A2 fill:#e3f2fd
-    style A3 fill:#e3f2fd
-    style B fill:#ffccbc
-    style C fill:#ffccbc
-    style D fill:#c8e6c9
-    style E fill:#c8e6c9
-    style F fill:#f8bbd0
-    style G fill:#d1c4e9
-    style H fill:#fff9c4
-    style I fill:#fff9c4
+    style A1 fill:#0d47a1,color:#fff
+    style A2 fill:#0d47a1,color:#fff
+    style A3 fill:#0d47a1,color:#fff
+    style B fill:#d84315,color:#fff
+    style C fill:#d84315,color:#fff
+    style D fill:#2e7d32,color:#fff
+    style E fill:#2e7d32,color:#fff
+    style F fill:#ad1457,color:#fff
+    style G fill:#5e35b1,color:#fff
+    style H fill:#f9a825,color:#000
+    style I fill:#f9a825,color:#000
 ```
 
 ### Key Components Explained
@@ -526,10 +526,10 @@ graph LR
     B --> C[Growth Scenario 2<br/>200 users<br/>$150/month]
     C --> D[Enterprise Scale<br/>1000+ users<br/>$500/month]
     
-    style A fill:#c8e6c9
-    style B fill:#fff9c4
-    style C fill:#ffccbc
-    style D fill:#f8bbd0
+    style A fill:#2e7d32,color:#fff
+    style B fill:#f9a825,color:#000
+    style C fill:#d84315,color:#fff
+    style D fill:#ad1457,color:#fff
 ```
 
 **Key Insight**: Costs scale linearly with usage, no large upfront investments needed.
@@ -652,15 +652,15 @@ graph TB
         C3[Training Completion<br/>Target: 100%]
     end
     
-    style A1 fill:#c8e6c9
-    style A2 fill:#c8e6c9
-    style A3 fill:#c8e6c9
-    style B1 fill:#bbdefb
-    style B2 fill:#bbdefb
-    style B3 fill:#bbdefb
-    style C1 fill:#fff9c4
-    style C2 fill:#fff9c4
-    style C3 fill:#fff9c4
+    style A1 fill:#2e7d32,color:#fff
+    style A2 fill:#2e7d32,color:#fff
+    style A3 fill:#2e7d32,color:#fff
+    style B1 fill:#1565c0,color:#fff
+    style B2 fill:#1565c0,color:#fff
+    style B3 fill:#1565c0,color:#fff
+    style C1 fill:#f9a825,color:#000
+    style C2 fill:#f9a825,color:#000
+    style C3 fill:#f9a825,color:#000
 ```
 
 ### Measurement Dashboard
@@ -727,17 +727,17 @@ graph TB
     C1 --> C2
     C1 --> C3
     
-    style A1 fill:#ffcdd2
-    style A2 fill:#ffcdd2
-    style A3 fill:#ffcdd2
-    style B1 fill:#fff9c4
-    style B2 fill:#fff9c4
-    style B3 fill:#fff9c4
-    style B4 fill:#fff9c4
-    style B5 fill:#fff9c4
-    style C1 fill:#c8e6c9
-    style C2 fill:#c8e6c9
-    style C3 fill:#c8e6c9
+    style A1 fill:#c62828,color:#fff
+    style A2 fill:#c62828,color:#fff
+    style A3 fill:#c62828,color:#fff
+    style B1 fill:#f9a825,color:#000
+    style B2 fill:#f9a825,color:#000
+    style B3 fill:#f9a825,color:#000
+    style B4 fill:#f9a825,color:#000
+    style B5 fill:#f9a825,color:#000
+    style C1 fill:#2e7d32,color:#fff
+    style C2 fill:#2e7d32,color:#fff
+    style C3 fill:#2e7d32,color:#fff
 ```
 
 ### Compliance Checklist
